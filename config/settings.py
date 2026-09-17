@@ -28,7 +28,6 @@ SECRET_KEY = 'django-insecure-(1+z92g!szd0)2e#x$t)$*d_n-5=kh$3343@t29h6&c)37u+#e
 DEBUG = True
 
 ALLOWED_HOSTS = config('ALLOWED_HOSTS', default='').split(',')
-print("DEBUG - ALLOWED_HOSTS resolved to:", repr(ALLOWED_HOSTS))
 
 
 # Application definition
